@@ -33,4 +33,3 @@ os.system('clear')
 while True:
     threading.Thread(target=check).start()
     time.sleep(0.01)
-ime.sleep(0.01)
