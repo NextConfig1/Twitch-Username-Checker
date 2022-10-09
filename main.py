@@ -6,7 +6,7 @@ import threading
 from colorama import Fore
 import time
 class stats():
-    alive, taken, checked = 0, 0, 0
+    vivos, usados, chequeados = 0, 0, 0
 intro = input("Enter first word of usernames > ")
 os.system('clear')
 def check():
